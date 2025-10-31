@@ -37,6 +37,7 @@ int main()
             default:
                 cout << "Invalid response";
         }
+        break;
     }while(choice != 4);
 
     return 0;
