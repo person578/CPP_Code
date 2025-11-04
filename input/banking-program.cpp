@@ -8,7 +8,7 @@ double withdraw(double balance);
 
 int main()
 {
-    double balance = 397;
+    double balance;
     int choice = 0;
     do{
         cout << "******************\n";
@@ -27,9 +27,11 @@ int main()
                 break;
             case 2:
                 balance += deposit();
+                showBalance(balance);
                 break;
             case 3:
                 balance -= withdraw(balance);
+                showBalance(balance);
                 break;
             case 4:
                 cout << "Thanks for visiting\n";
@@ -47,8 +49,15 @@ void showBalance(double balance){
     cout << "Your balance is $" << setprecision(2) << std::fixed << balance << '\n';
 }
 double deposit(){
-    return 0;
+    double amount = 0;
+
+    cout << "How much would you like to deposit? ";
+    cin >> amount;
+
+    return amount;
 }   
 double withdraw(double balance){
+    double
+
     return 0;
 }
