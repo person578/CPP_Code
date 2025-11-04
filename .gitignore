@@ -19,6 +19,8 @@ input/functions
 input/overloaded-functions
 input/return
 input/banking-program
+input/XOR-gate.cpp
+input/XOR-gate
 input/random-things/number-guessing-game
 simple-programs/random-numbers
 simple-programs/random-events
