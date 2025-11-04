@@ -54,7 +54,14 @@ double deposit(){
     cout << "How much would you like to deposit? ";
     cin >> amount;
 
-    return amount;
+    if(amount >  0){
+        return amount;
+    }
+
+    else{
+        cout << "That's not a valid amount\n";
+        return 0;
+    }
 }   
 double withdraw(double balance){
     double
