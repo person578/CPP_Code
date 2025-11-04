@@ -39,7 +39,6 @@ int main()
             default:
                 cout << "Invalid response";
         }
-        break;
     }while(choice != 4);
 
     return 0;
@@ -64,7 +63,6 @@ double deposit(){
     }
 }   
 double withdraw(double balance){
-    double
 
-    return 0;
+    return 0.00;
 }
