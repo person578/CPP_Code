@@ -63,7 +63,7 @@ double deposit(){
     }
 }   
 double withdraw(double balance){
-    
+    double amount = 0;
 
     return 0.00;
 }
