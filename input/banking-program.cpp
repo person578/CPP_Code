@@ -65,5 +65,8 @@ double deposit(){
 double withdraw(double balance){
     double amount = 0;
 
+    cout << "Enter amount to withdraw";
+    cin >> amount;
+
     return 0.00;
 }
