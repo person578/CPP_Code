@@ -8,7 +8,7 @@ int main()
         if(i == 13){
             continue;
         }
-        cout << i << endl;
+        cout << i << '\n';
     }
 
     return 0;
