@@ -68,7 +68,5 @@ double withdraw(double balance){
     cout << "Enter amount to withdraw ";
     cin >> amount;
 
-    
-
     return amount;
 }
