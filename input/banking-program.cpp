@@ -78,5 +78,7 @@ double withdraw(double balance){
         return 0;
     }
 
-    return amount;
+    else{
+        return amount;
+    }
 }
