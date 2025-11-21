@@ -12,11 +12,11 @@ int main()
     }while(number < 0);
 
     if(number == 2147483647){
-      cout << "You reached the integer limit of 2147483647 or got higher then it";
+      cout << "You reached the integer limit of 2147483647 or got higher then it" << '\n';
     }
 
     else{
-      cout << "The number is " << number << endl;
+      cout << "The number is " << number << '\n';
     }
     return 0;
 }
