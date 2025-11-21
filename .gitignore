@@ -10,6 +10,7 @@ if_statments/test.cpp
 if_statments/chatgpt.cpp
 if_statments/chatgpt
 loops/while-loops/do-while
+loops/while-loops/learning
 loops/for-loops/learning
 loops/for-loops/break&countinue
 loops/for-loops/nested-loops
