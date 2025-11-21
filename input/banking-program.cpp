@@ -73,5 +73,10 @@ double withdraw(double balance){
         return 0;
     }
 
+    else if(amount < 0){
+        cout << "That's not a valid amount\n";
+        return 0;
+    }
+
     return amount;
 }
