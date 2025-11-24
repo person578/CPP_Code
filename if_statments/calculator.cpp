@@ -5,12 +5,12 @@ int main()
 {
 
     double num1, num2;
-    char op;
+    char operator;
 
     cout << "*****************CALCULATOR*****************\n";
 
     cout << "What operator are you using? ";
-    cin >> op;
+    cin >> operator;
 
     cout << "What's the first number? ";
     cin >> num1;
@@ -19,7 +19,7 @@ int main()
     cin >> num2;
 
 
-    switch(op){
+    switch(operator){
         case '+':
             cout << num1 << " plus " << num2 << " is " << (num1 + num2) << '\n';
             break;
