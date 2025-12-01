@@ -9,8 +9,12 @@ double withdraw(double balance);
 int main()
 {
     double balance;
-    int choice = 0;
+    int choice;
+
+    // Allows the program to keep asking the question until you say to stop
+    
     do{
+        // Makes everything look cleaner
         cout << "******************\n";
         cout << "Enter your choice\n";
         cout << "******************\n";
@@ -37,7 +41,7 @@ int main()
                 cout << "Thanks for visiting\n";
                 break;
             default:
-                cout << "Invalid response";
+                cout << "Invalid response\n";
         }
     }while(choice != 4);
 
