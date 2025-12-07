@@ -15,7 +15,7 @@ int main()
     computer = getComputerChoice();
 
     switch(){
-        
+
     }
 
     return 0;
@@ -23,6 +23,20 @@ int main()
 
 char getUserChoice(){
 
+    char player;
+
+    cout << "Rock-Paper-Scissors Game!\n";
+
+    do{
+        cout << "Choose one of the following\n";
+        cout << "****************************\n";
+        cout << "'r' for Rock\n";
+        cout << "'p' for Paper\n";
+        cout << "'s' for Scissors\n";
+        cin >> player;
+    }while(player != 'r' && player != 'p' && player != 's');
+
+    return player;
 }
 char getComputerChoice(){
 
