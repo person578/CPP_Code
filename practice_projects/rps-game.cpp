@@ -8,7 +8,15 @@ void chooseWinner(char player, char computer);
 
 int main()
 {
-    
+    char player;
+    char computer;
+
+    player = getUserChoice();
+    computer = getComputerChoice();
+
+    switch(){
+        
+    }
 
     return 0;
 }
@@ -23,5 +31,5 @@ void showChoice(char choice){
 
 }
 void chooseWinner(char player, char computer){
-    
+
 }
