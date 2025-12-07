@@ -15,7 +15,7 @@ int main(){
     index = searchArray(numbers, size, myNum);
 
     if(index != -1){
-        cout << myNum << " is at " << index << '\n';
+        cout << myNum << " is at index " << index << '\n';
     }
     else{
         cout << myNum << " is not in the array\n";
