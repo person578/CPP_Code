@@ -12,11 +12,8 @@ int main()
     char computer;
 
     player = getUserChoice();
-    computer = getComputerChoice();
-
-    switch(){
-
-    }
+    cout << "Your choice: ";
+    showChoice(player);
 
     return 0;
 }
