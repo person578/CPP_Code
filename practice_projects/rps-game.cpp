@@ -15,6 +15,9 @@ int main()
     cout << "Your choice: ";
     showChoice(player);
 
+    computer = getComputerChoice();
+    
+
     return 0;
 }
 
