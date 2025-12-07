@@ -21,6 +21,8 @@ int main()
     cout << "Computers choice: ";
     showChoice(computer);
 
+    chooseWinner(player, computer);
+
     return 0;
 }
 
