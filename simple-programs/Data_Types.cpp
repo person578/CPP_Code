@@ -13,10 +13,10 @@ int main()
     string name = "Ethan White";
 
 
-    cout << "You are " << age << " years old." << '\n';
+    cout << "You are " << age << " years old.\n";
     cout << price << '\n';
     cout << character << '\n';
-    cout << "Hello, " << name << "." << '\n';
+    cout << "Hello, " << name << ".\n";
     cout << pass << '\n';
     cout << forsale << '\n';
 
