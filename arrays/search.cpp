@@ -12,11 +12,23 @@ int main(){
     cout << "Enter element to search for (1-10): ";
     cin >> myNum;
 
+    index = searchArray(numbers, size, myNum);
 
+    if(index != -1){
+        cout << myNum << " is at " << index << '\n';
+    }
+    else{
+        cout << myNum << " is not in the array\n";
+    }
 
     return 0;
 }
 
 int searchArray(int array[], int size, int element){
-    
+    for(int i = 0; i < size; i++){
+        if(array[i] == element){
+            return i;
+        }
+    }
+    return -1;
 }
