@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/ethan/Downloads/Code/C++_Code",
-      "program": "/home/ethan/Downloads/Code/C++_Code/build/Debug/outDebug",
+      "cwd": "/home/prndl/Downloads/Code/C++_Code/simple-programs",
+      "program": "/home/prndl/Downloads/Code/C++_Code/simple-programs/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
