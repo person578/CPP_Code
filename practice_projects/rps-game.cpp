@@ -39,7 +39,17 @@ char getComputerChoice(){
 
 }
 void showChoice(char choice){
-
+    switch(choice){
+        case 'r':
+            cout << "Rock\n";
+            break;
+        case 'p':
+            cout << "Paper\n";
+            break;
+        case 's':
+            cout << "Scissors\n";
+            break;
+    }
 }
 void chooseWinner(char player, char computer){
 
