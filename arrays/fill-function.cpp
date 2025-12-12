@@ -7,7 +7,7 @@ int main(){
 
     fill(foods, foods + (SIZE/3), "Pizza");
     fill(foods + (SIZE/3), foods + 2*(SIZE/3), "Hamburgers");
-    fill(foods + (SIZE/3)*2, foods + SIZE, "Hotdogs");
+    fill(foods + 2*(SIZE/3), foods + SIZE, "Hotdogs");
 
     for(string food : foods){
         cout << food << '\n';
