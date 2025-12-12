@@ -2,9 +2,10 @@
 using namespace std;
 
 int main(){
-    string foods[100];
+    const int SIZE = 100;
+    string foods[SIZE];
 
-    fill(foods, foods + 100, "pizza");
+    fill(foods, foods + SIZE, "pizza");
 
     for(string food : foods){
         cout << food << '\n';
