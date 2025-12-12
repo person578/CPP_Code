@@ -1,3 +1,8 @@
+arrays/learning
+arrays/iterate
+arrays/passing-to-function
+arrays/search
+arrays/sort
 input/user-input
 if_statments/HelloWorld.java
 if_statments/calculator
@@ -31,9 +36,4 @@ const
 name-space
 type-conversion
 typedef
-arrays/learning
-arrays/iterate
-arrays/passing-to-function
-arrays/search
-arrays/sort
 sizeof
