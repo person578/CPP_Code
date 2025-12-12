@@ -6,5 +6,9 @@ int main(){
 
     
 
+    for(string food : foods){
+        cout << food << '\n';
+    }
+
     return 0;
 }
