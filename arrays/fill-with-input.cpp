@@ -6,10 +6,14 @@ int main(){
     int size = sizeof(foods)/sizeof(foods[0]);
 
     for(int i = 0; i < size; i++){
-        i++;
-        cout << "Enter a food you like #" << i << ": ";
-        i--;
+        cout << "Enter a food you like #" << i + 1 << ": ";
         getline(cin, foods[i]);
+    }
+
+    cout << "You like these foods\n";
+
+    for(string food : foods){
+        cout << food << '\n';
     }
 
     return 0;
